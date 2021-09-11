@@ -1,0 +1,14 @@
+@media(min-width:320px) and (max-width:767px){
+    .navbar-nav{
+        text-align: center;
+    }
+    .nav-item{
+       margin-bottom: 10px;
+    }
+    .banner_content{
+        text-align: center;
+    }
+    .coustomar_heading h1{
+        text-align: center;
+    }
+}
