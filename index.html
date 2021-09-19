@@ -65,7 +65,7 @@
                 <div class="row banner_content">
                   <div class="col-lg-6 col-md-6 col-10">
                     <h5>Nike blue Shoes</h5>
-                    <h1>Nike metcon Shoes</h1>
+                    <h1>Nike metcon Shoes</span></h1>
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt eos nam reprehenderit esse tempora in, maxime molestias, error dignissimos et dolore deserunt quas asperiores animi qui unde dolorem!</p>
                     <a href="#" class="btn banar_btn">Add to cart</a>
                   </div>
@@ -152,7 +152,7 @@
         <div class="container">
           <div class="row text-center">
             <div class="col-md-6 m-auto py-5">
-              <h1>BEST SELLERS</h1>
+              <h1><span class="animate"></span></h1>
             </div>
           </div> 
 
@@ -345,7 +345,7 @@
             </div>  
       </section> 
             <div class="row m-auto text-center my-4 feature_heading">
-              <h1>FEATURED <span>PRODUCT</span></h1>
+              <h1>FEATURED <span class="feature"></span></h1>
             </div>
           
             <div class="container feature"  data-aos="zoom-in"><!-- data-aos="fade-up-right" -->
@@ -698,6 +698,7 @@
       </section>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="Aos/aos.js"></script>
+    <script src="typed.min.js"></script>
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
     <script src="js/owl.carousel.min.js"></script>
@@ -716,9 +717,22 @@
   </script>
   <script>
     AOS.init({
-      // delay: 1000,
       duration: 3000,
     });
+  </script>
+  <script>
+    var typed = new Typed('.animate', {
+    strings: ["BEST SELLERS"],
+    typeSpeed: 60,
+    loop:true,
+  });
+  </script>
+  <script>
+    var typed = new Typed('.feature', {
+    strings:["PRODUCT"],
+    typeSpeed: 60,
+    loop:true,
+  });
   </script>
   </body>
 </html>
